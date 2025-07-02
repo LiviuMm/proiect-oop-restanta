@@ -2,6 +2,7 @@
 
 #include <string>
 #include "magazin.h"
+#include "administrator.h"
 
 class Fast_food: public Magazin {
 public:

@@ -2,10 +2,12 @@
 #include <string>
 #include <vector>
 #include "angajat.h"
-#include "administrator.h"
-#include "produs.h"
+#include "afisare.h"
 
-class Magazin {
+class Administrator;
+class Produs;
+
+class Magazin: public Afisare {
 private:
     std::string m_nume;
     std::vector<Angajat*> m_angajati; 
@@ -17,5 +19,7 @@ public:
     void AdaugaAngajat(Angajat* a);
     void AdaugaProdus(Produs* p);
 
+    virtual double InventarMagazin() const;
 
+    virtual void Afiseaza() const override;
 };

@@ -1,8 +1,10 @@
 #pragma once
 #include "persoana.h"
 #include <string>
-#include "Magazin.h"
 #include <vector>
+#include "afisare.h"
+
+class Magazin;
 
 class Administrator : public Angajat {
 private:
@@ -12,5 +14,6 @@ public:
 
 	void AdaugaMagazin(Magazin* m);
 
+	void Afiseaza() const override;
 
 };

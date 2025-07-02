@@ -1,9 +1,12 @@
 #pragma once
 
 #include <string>
-#include "magazin.h"
+#include "afisare.h"
 
-class Produs {
+
+class Magazin;
+
+class Produs:public Afisare {
 private:
 	std::string m_cod;
 	std::string m_nume;
@@ -12,5 +15,7 @@ private:
 	Magazin* magazin;
 public:
 	Produs(std::string cod, std::string nume, double pret, std::string exp_date, Magazin* magazin);
+	double GetPret() const;
 
+	void Afiseaza() const override;
 };

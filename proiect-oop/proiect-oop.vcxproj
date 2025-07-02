@@ -137,14 +137,15 @@
     <ClCompile Include="hypermarket.cpp" />
     <ClCompile Include="imbracaminte.cpp" />
     <ClCompile Include="magazin.cpp" />
+    <ClCompile Include="mall.cpp" />
     <ClCompile Include="persoana.cpp" />
     <ClCompile Include="produs.cpp" />
-    <ClCompile Include="proiect-oop.cpp" />
     <ClCompile Include="vanzator.cpp" />
     <ClCompile Include="zona.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="administrator.h" />
+    <ClInclude Include="afisare.h" />
     <ClInclude Include="angajat.h" />
     <ClInclude Include="client.h" />
     <ClInclude Include="electronic.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="hypermarket.h" />
     <ClInclude Include="imbracaminte.h" />
     <ClInclude Include="magazin.h" />
+    <ClInclude Include="mall.h" />
     <ClInclude Include="persoana.h" />
     <ClInclude Include="produs.h" />
     <ClInclude Include="vanzator.h" />
