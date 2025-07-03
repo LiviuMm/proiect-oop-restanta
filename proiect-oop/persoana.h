@@ -18,14 +18,3 @@ public:
 		return m_varsta; 
 	}
 };
-
-//class Magazin {
-//private:
-//	std::vector<Angajat*> m_angajati;
-//public:
-//	void CevaFunctie() {
-//		for (auto& angajat : m_angajati) {
-//			angajat.
-//		}
-//	}
-//};
