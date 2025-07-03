@@ -36,22 +36,13 @@
     <ClCompile Include="administrator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cosmetica.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="magazin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="fast_food.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="hypermarket.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="imbracaminte.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="electronic.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="zona.cpp">
@@ -70,6 +61,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cosmetica.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="electronic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hypermarket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

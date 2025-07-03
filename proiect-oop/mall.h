@@ -18,7 +18,10 @@ public:
 
 	int NumarMagazine();
 
+	int NumarAngajati();
+
 	double InventarMall();
+
 	
 
 };

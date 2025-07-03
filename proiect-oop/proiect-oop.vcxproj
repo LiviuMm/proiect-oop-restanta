@@ -137,6 +137,7 @@
     <ClCompile Include="hypermarket.cpp" />
     <ClCompile Include="imbracaminte.cpp" />
     <ClCompile Include="magazin.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="mall.cpp" />
     <ClCompile Include="persoana.cpp" />
     <ClCompile Include="produs.cpp" />

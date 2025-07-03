@@ -15,6 +15,10 @@
 		return static_cast<int>(m_magazine.size());
 	}
 
+	int Mall::NumarAngajati() {
+		return static_cast<int>(m_angajati.size());
+	}
+
 	double Mall :: InventarMall() {
 		double i = 0;	
 		for (Magazin* m : m_magazine) {

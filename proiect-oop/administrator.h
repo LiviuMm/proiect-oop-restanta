@@ -3,6 +3,7 @@
 #include <string>
 #include <vector>
 #include "afisare.h"
+#include "angajat.h"
 
 class Magazin;
 
