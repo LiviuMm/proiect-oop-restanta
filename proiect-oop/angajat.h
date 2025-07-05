@@ -3,7 +3,6 @@
 #include "persoana.h"
 #include <string>
 #include "afisare.h"
-#include "afisare.h"
 
 class Angajat : public Persoana, public Afisare
 {private:

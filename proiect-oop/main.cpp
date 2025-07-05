@@ -11,6 +11,8 @@
 #include "client.h"
 #include "hypermarket.h"
 #include "electronic.h"
+#include "afisare.h"
+#include "angajat.h"
 
 int main() {
     Mall mall("MegaMall", "Bucuresti");
@@ -182,6 +184,17 @@ int main() {
 
 
     std::cout << "In mall sunt "<<mall.NumarMagazine() << " magazine"<<" cu "<< mall.NumarAngajati() << " angajati.\n";
+    
+    std::cout << "\n";
+    //Afisare polimorfism
+        std::vector<Afisare*> i;
+        i.push_back(Sephora);
+        i.push_back(p1);
+        i.push_back(p2);
+
+        for (Afisare* a : i)
+            a->Afiseaza();
+
 
 
     return 0;
