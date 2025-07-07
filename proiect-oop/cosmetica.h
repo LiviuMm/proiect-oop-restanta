@@ -7,5 +7,9 @@
 class Cosmetica : public Magazin {
 public:
 	Cosmetica(std::string nume, Administrator* administrator);
+
+	double InventarMagazin() const override;
+
+
 };
 	

@@ -4,8 +4,10 @@
 #include "angajat.h"
 #include "afisare.h"
 
-class Administrator;
-class Produs;
+#include "administrator.h"
+#include "produs.h"
+
+
 
 class Magazin: public Afisare {
 private:
@@ -18,7 +20,7 @@ public:
 
     void AdaugaAngajat(Angajat* a);
     void AdaugaProdus(Produs* p);
-
+    
     virtual double InventarMagazin() const;
 
     virtual void Afiseaza() const override;

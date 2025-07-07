@@ -190,7 +190,7 @@ int main() {
         std::vector<Afisare*> i;
         i.push_back(Sephora);
         i.push_back(p1);
-        i.push_back(p2);
+        i.push_back(p2);        
 
         for (Afisare* a : i)
             a->Afiseaza();
